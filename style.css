@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.container{
+    background-color: white;
+    width: 300px;
+    height: 520px;
+    border-radius: 6px;
+}
+
+.container > form > header{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.written{
+    padding: 50px;
+}
+
+.written .text{
+    margin-left: -34px;
+    padding: 5px;
+}
+
+.written > textarea{
+    width: 136%;
+    position: relative;
+    right: 35px;
+    resize: none;
+    border: 1px solid #999;
+    outline: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+}
+
+.speech{
+   position: relative;
+   bottom: 30px;
+}
+
+.speech .lang h3{
+   padding: 5px;
+   margin-left: 7px;
+}
+
+.speech .lang select{
+    height: 47px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0 10px;
+    width: 94%;
+    margin-left: 9px;
+    outline: none;
+}
+
+button{
+    margin-top: 20px;
+    width: 94%;
+    padding: 10px;
+    background-color: #5256AD;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 9px;
+    border-radius: 6px;
+    height: 52px;
+    cursor: pointer;
+}
